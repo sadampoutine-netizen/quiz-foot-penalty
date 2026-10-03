@@ -21,6 +21,10 @@ jobs:
 
       - name: Installer les dépendances
         run: npm install
+      - name: Préparer les fichiers web
+        run: |
+          mkdir -p www
+          cp index.html www/index.html
 
       - name: Installer Capacitor Android
         run: npx cap add android
