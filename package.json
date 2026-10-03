@@ -1,0 +1,7 @@
+{
+  "name": "quiz-foot-penalty",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build":"node -e \"console.log('web build ready')\"","android:add":"npx cap add android","android:sync":"npx cap sync android"},
+  "dependencies": {"@capacitor/core":"^7.4.3","@capacitor/android":"^7.4.3","@capacitor/cli":"^7.4.3"}
+}
