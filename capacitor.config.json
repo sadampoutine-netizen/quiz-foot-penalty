@@ -1,6 +1,6 @@
 {
   "appId": "com.quizfootpenalty.app",
   "appName": "Quiz Foot Penalty",
-  "webDir":".",
+  "webDir": "www",
   "bundledWebRuntime": false
 }
